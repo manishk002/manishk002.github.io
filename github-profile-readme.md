@@ -12,7 +12,7 @@
 
 I'm a dedicated Computer Science engineer with a passion for applying machine learning and deep learning techniques to solve real-world problems. My expertise lies in artificial intelligence, computer vision, natural language processing, and data analytics.
 
-- 🎓 Pursuing B.Tech in Computer Science and Engineering (AI & ML) at CMR College Of Engineering And Technology
+- 🎓 B.Tech in Computer Science and Engineering (AI & ML) at CMR College Of Engineering And Technology
 - 💼 AI & ML Executive Intern at BlackBucks
 - 🌟 CGPA: 7.85/10
 
