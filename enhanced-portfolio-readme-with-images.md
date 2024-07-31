@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-  <img src="https://i.imgur.com/0pYH42V.png" alt="Manish Kumar Yadav" width="200" style="border-radius: 50%;" />
+  <img src="https://photos.app.goo.gl/qp7PfZxsJpgSmmq69" alt="Manish Kumar Yadav" width="200" style="border-radius: 50%;" />
 </div>
 
 <p align="center">
