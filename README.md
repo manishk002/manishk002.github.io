@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://i.imgur.com/0pYH42V.png" alt="Manish Kumar Yadav" width="200" style="border-radius: 50%;" />
+  <img src="https://imgur.com/a/GnfjrRq" alt="Manish Kumar Yadav" width="200" style="border-radius: 50%;" />
 </div>
 
 ## 🚀 About Me
