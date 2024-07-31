@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/manishk002/manishk002.github.io/blob/main/image%20(1).png" alt="Manish Kumar Yadav" width="200" style="border-radius: 50%;" />
+  <img src="https://i.imgur.com/0pYH42V.png" alt="Manish Kumar Yadav" width="200" style="border-radius: 50%;" />
 </div>
 
 ## 🚀 About Me
