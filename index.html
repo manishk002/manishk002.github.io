@@ -22,12 +22,13 @@
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
+                    <div class="nav-toggle"><i class="fas fa-bars"></i></div>
                 </nav>
             </div>
         </div>
     </header>
 
-    <section id="about">
+    <section id="about" class="scroll-element">
         <div class="container">
             <div class="about-content">
                 <div class="about-img">
@@ -41,7 +42,7 @@
         </div>
     </section>
 
-    <section id="experience">
+    <section id="experience" class="scroll-element">
         <div class="container">
             <h2>Experience</h2>
             <div class="timeline">
@@ -56,68 +57,52 @@
         </div>
     </section>
 
-    <section id="education">
+    <section id="education" class="scroll-element">
         <div class="container">
             <h2>Education</h2>
             <div class="education-block">
-                <h3>University Name</h3>
-                <span>Sept 2016 - Sept 2017</span>
-                <h4>Bachelor of Science in Computer Science</h4>
-                <p>Details about the degree...</p>
+                <h3>Degree</h3>
+                <h4>Institution Name</h4>
+                <span>Year</span>
+                <p>Education details...</p>
             </div>
             <!-- Add more education blocks as needed -->
         </div>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="scroll-element">
         <div class="container">
             <h2>Projects</h2>
-            <div class="project">
-                <img src="images/project1.jpg" alt="Project 1">
-                <h3>RAG for Medical Chatbot</h3>
-                <p>Implemented RAG using 'Phi-02' model for accurate medical chatbot responses.</p>
-            </div>
-            <div class="project">
-                <img src="images/project2.jpg" alt="Project 2">
-                <h3>Multi Language Invoice Extractor</h3>
-                <p>Developed using Google's Gemini Pro Free LLM Model with Streamlit and PyPDF2.</p>
-            </div>
-            <div class="project">
-                <img src="images/project3.jpg" alt="Project 3">
-                <h3>Drivers Drowsiness Detection</h3>
-                <p>Built a system using CNN and OpenCV for real-time drowsiness detection.</p>
+            <div class="projects">
+                <div class="project">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <h3>Project Title</h3>
+                    <p>Project description...</p>
+                </div>
+                <!-- Add more project blocks as needed -->
             </div>
         </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="scroll-element">
         <div class="container">
             <h2>Skills</h2>
-            <ul>
+            <ul class="skills">
                 <li>JavaScript</li>
-                <li>Python</li>
-                <li>Ruby</li>
-                <li>Go</li>
-                <li>Node.js</li>
-                <li>AngularJs</li>
+                <li>HTML</li>
+                <li>CSS</li>
                 <li>React</li>
-                <li>Elixir</li>
-                <li>Java</li>
-                <li>C</li>
-                <li>C#</li>
-                <li>C++</li>
-                <li>Ruby on Rails</li>
+                <!-- Add more skills as needed -->
             </ul>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="scroll-element">
         <div class="container">
             <h2>Contact</h2>
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website">
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
+            <form>
+                <input type="email" name="_replyto" placeholder="Your email">
+                <textarea name="message" placeholder="Your message"></textarea>
                 <button type="submit">Send</button>
             </form>
         </div>
@@ -125,12 +110,13 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Manish Kumar Yadav</p>
+            <p>Connect with me on:</p>
             <div class="social">
-                <a href="https://github.com/manishk002" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/manishk002" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://twitter.com/manishk002" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
             </div>
+            <p>&copy; 2024 Manish Kumar Yadav. All rights reserved.</p>
         </div>
     </footer>
 
