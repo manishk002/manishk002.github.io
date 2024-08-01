@@ -1,3 +1,157 @@
+/* Reset and base styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .header-content {
+    text-align: center;
+}
+
+header .header-content h1 {
+    margin: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+header .header-content h2 {
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #e8491d;
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.about-content, .experience, .education, .projects, .skills, .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-content .about-img img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.about-content .about-text {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.about-content .about-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-content .about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.timeline, .education-block, .project, .skills ul, .contact form {
+    width: 100%;
+}
+
+.timeline-item, .education-block, .project {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.project p {
+    font-size: 16px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    flex: 1 0 21%;
+    margin: 10px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 16px;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+footer .social a:hover {
+    color: #e8491d;
+}
+
 /* Smooth scrolling styles */
 html {
     scroll-behavior: smooth;
@@ -55,3 +209,4 @@ nav ul.nav-open {
 .about-content, .timeline-item, .education-block, .project, .skills ul li, .contact form {
     transform: translateY(50px);
 }
+
