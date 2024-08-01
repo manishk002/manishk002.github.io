@@ -209,4 +209,55 @@ nav ul.nav-open {
 .about-content, .timeline-item, .education-block, .project, .skills ul li, .contact form {
     transform: translateY(50px);
 }
+/* Existing CSS rules ... */
 
+/* New CSS rules for projects */
+#projects .project {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#projects .project-image {
+    flex: 0 0 300px;
+    max-width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#projects .project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#projects .project-info {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#projects .project-info h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+#projects .project-info p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    #projects .project {
+        flex-direction: column;
+    }
+    
+    #projects .project-image {
+        max-width: 100%;
+    }
+}
